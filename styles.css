@@ -24,19 +24,19 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #32CD32; /* Green color for the scrollbar thumb */
+    background-color: #00FFFF; /* Green color for the scrollbar thumb */
     border-radius: 10px; /* Rounded corners for the thumb */
     border: 1px solid #0F1115; /* Optional: gives some space around the thumb */
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background-color: #28a428; /* Darker green when hovering */
+    background-color: #00FFFF; /* Darker green when hovering */
 }
 
 /* For Firefox */
 * {
     scrollbar-width: thin; /* Thin scrollbar width */
-    scrollbar-color: #32CD32 #0F1115; /* Green thumb and main background track */
+    scrollbar-color: #00FFFF #0F1115; /* Green thumb and main background track */
 }
 
 /* For Internet Explorer and Edge */
@@ -104,7 +104,7 @@ body::-webkit-scrollbar {
 .cta {
     text-decoration: none;
     color: #000;
-    background: #32CD32;
+    background: #00FFFF;
     padding: 15px 30px;
     border-radius: 5px;
     transition: background 0.3s;
@@ -113,7 +113,7 @@ body::-webkit-scrollbar {
 }
 
 .cta:hover {
-    background: #28a428;
+    background: #3ABEF9;
 }
 
 .about-us {
@@ -148,7 +148,7 @@ body::-webkit-scrollbar {
 .about-text h2 {
     font-size: 2.5rem;
     margin-bottom: 20px;
-    color: #32CD32;
+    color: #00FFFF;
     font-family: 'Bebas Neue', sans-serif; /* Updated font */
     font-weight: 700;
 }
@@ -175,7 +175,7 @@ body::-webkit-scrollbar {
 .about-buttons .rules {
     text-decoration: none;
     color: #fff;
-    border: 2px solid #32CD32; /* Added border */
+    border: 2px solid #00FFFF; /* Added border */
     padding: 10px 20px;
     border-radius: 5px;
     margin-right: 10px;
@@ -185,14 +185,14 @@ body::-webkit-scrollbar {
 }
 
 .about-buttons .rules:hover {
-    background: #32CD32;
+    background: #00FFFF;
     color: #000;
 }
 
 .about-buttons .join-us {
     text-decoration: none;
     color: #000;
-    background: #32CD32;
+    background: #00FFFF;
     padding: 10px 20px;
     border-radius: 5px;
     margin-right: 10px;
@@ -209,7 +209,7 @@ body::-webkit-scrollbar {
 }
 
 .about-buttons .join-us:hover {
-    background: #28a428;
+    background: #3ABEF9;
 }
 
 .about-buttons .join-us:hover i {
@@ -256,9 +256,9 @@ body::-webkit-scrollbar {
 
 .vertical-form button {
     padding: 15px;
-    border: 2px solid #32CD32; /* Green outline */
+    border: 2px solid #00FFFF; /* Green outline */
     background: none; /* No background color */
-    color: #32CD32; /* Green text color */
+    color: #00FFFF; /* Green text color */
     border-radius: 5px;
     cursor: pointer;
     transition: background 0.3s, color 0.3s;
@@ -266,7 +266,7 @@ body::-webkit-scrollbar {
 }
 
 .vertical-form button:hover {
-    background: #32CD32; /* Green background on hover */
+    background: #00FFFF; /* Green background on hover */
     color: #000; /* Black text color on hover */
 }
 
@@ -289,7 +289,7 @@ footer p {
 }
 
 .footer-icons a:hover {
-    color: #32CD32; /* Green color on hover */
+    color: #00FFFF; /* Green color on hover */
 }
 
 @media (max-width: 768px) {
